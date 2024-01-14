@@ -1,0 +1,676 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+*:focus {
+    outline: none;
+}
+
+:root {
+    --dark-pink: #ba4270;
+    --link-water-white: #fbfcfe;
+    --san-juan-blue: #36536b;
+    --mirage-blue: #1b262f;
+    --charm-pink: #da6d97;
+    --light-san-juan-blue: #6c8294;
+}
+
+body {
+    font-family: 'Public Sans', sans-serif;
+    font-size: 15px;
+    background-color: #EDF3F8;
+    color: #6c8294;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-family: 'Roboto', sans-serif;
+    color: #36536b;
+}
+h1 small {
+    font-size: 56px ;
+    font-weight: 350;
+}
+
+h3 {
+    font-size: 32px;
+    font-weight: 300;
+}
+
+hr {
+    color:rgba(108,130,148, .5) ;
+    background-color: rgba(108,130,148,.5) ;
+    border-width: 0;
+    height: 1px;
+}
+
+.container {
+    max-width: 1130px;
+    padding: 0 10px;
+    margin: 0 auto;
+    flex: 1;
+    display: inherit;
+    justify-content: inherit;
+    align-items: inherit;
+    height: inherit;
+    flex-wrap: inherit;
+    flex-direction: inherit;
+}
+
+header{
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 450px) -150px ;
+    padding-top: 40px;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    height: 48px;
+    margin-bottom: 40px;
+}
+
+.logo-img {
+    height: 38px;
+}
+
+.menu {
+    width: 100%;
+    display: inherit;
+    height: inherit;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+}
+
+li {
+    list-style: none;
+}
+
+li a {
+    text-decoration: none;
+    margin-left: 70px;
+    color: var(--light-san-juan-blue);
+}
+
+a:hover {
+    color: var(--san-juan-blue);
+}
+
+.schedule-button {
+    margin-left: auto;
+    border: none;
+    background-color: var(--dark-pink);
+    font-size: 15px;
+    color: #EDF3F8;
+    height: 48px;
+    width: 173px;
+    border-radius: 50px;
+    box-shadow: 10px 10px 25px rgba(54, 83, 107, .25);
+}
+.hero {
+    display: flex;
+    align-items: center;
+}
+.hero-text {
+    max-width: 546px;
+}
+
+h1 {
+    font-size: 72px;
+    color: #36536b;
+    font-weight: 400;
+    line-height: 72px;
+}
+
+.schedule-form {
+    width: 445px;
+    height: 48px;
+    margin-top: 40px;
+    margin-bottom: 15px;
+    position: relative;
+    border-radius: 48px;
+    box-shadow: 10px 10px 25px rgba(54, 83, 107, .25);
+}
+
+.schedule-form input {
+    width: 100%;
+    height: 100%;
+    border: none;
+    border-radius: 48px;
+    padding: 0 20px;
+    background-color: #fbfcfe;
+    font-size: 15px;
+
+}
+
+.schedule-form .schedule-button {
+    position: absolute;
+    right: 0;
+    box-shadow: none;
+}
+
+.hero-text small, a {
+    color: #6c8294;
+    font-size: 15px;
+}
+.hero-text small {
+    margin-left: 20px;
+}
+
+.mobile-mockup-hero {
+    margin-left: auto;
+}
+
+.references {
+    background-color: #1B262F;
+    color: white;
+    height: 472px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% - 550px) -350px;
+}
+
+.references-description {
+    width: 445px;
+
+}
+
+h2{
+    font-size: 48px;
+    line-height: 56px;
+}
+
+.references-description h2 {
+    color: #fbfcfe;
+}
+
+.references-description p {
+    line-height: 28px;
+    opacity: .8;
+    margin: 15px 0 30px;
+}
+
+.about-us-button {
+    height: 48px;
+    width: 129px;
+    border: 1px solid #fbfcfe;
+    background-color: transparent;
+    color: #fbfcfe;
+    font-size: 15px;
+    border-radius: 48px;
+}
+
+.enterprises-logos-container {
+    width: auto;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr 1fr;
+    justify-items: end;
+    gap: 30px;
+}
+.tesla-icon,
+.oracle-icon {
+    justify-self: start;
+}
+.google-icon {
+    justify-self: center;
+}
+
+path {
+    fill: #fbfcfe !important;
+}
+g {
+    fill: #fbfcfe;
+}
+
+main {
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 700px) ;
+}
+
+.easy-to-implement-container,
+.simple-ui-container{
+    display: flex;
+    align-items: center;
+}
+
+.easy-to-implement-description,
+.simple-ui-description{
+    width: 445px;
+}
+
+main h2{
+    font-weight: 350;
+}
+
+main p {
+    line-height: 28px;
+}
+
+.easy-to-implement-img{
+    margin-left: -30px;
+}
+
+.simple-ui-img {
+    overflow: hidden;
+}
+
+.simple-ui-img img{
+    width: inherit;
+}
+
+.perks-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.perk {
+    text-align: center;
+    background-color: #fbfcfe;
+    border: 1px solid;
+    border-radius: 1rem;
+    padding: 1rem 1.75rem;
+}
+
+h3 small {
+    font-weight: normal;
+    font-size: 18px;
+}
+
+h3 {
+    margin: 20px 0;
+}
+
+
+.ready-to-start-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 100px 0;
+}
+
+.ready-to-start-container .schedule-form {
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    background-color: #1B262F;
+    height: 100px;
+    align-items: center;
+    background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+    background-repeat: no-repeat;
+    background-position: calc(50% + 700px) 20% ;
+}
+
+footer a {
+    color: #fbfcfe;
+    opacity: .8;
+}
+
+footer a:hover {
+    color: #fbfcfe;
+    opacity: 1;
+}
+
+.social-links {
+    margin-left: auto;
+}
+
+.social-link-icon {
+    margin-left: 20px;
+    opacity: 1;
+}
+.social-links a:hover  path{
+    fill:#da6d97 !important;
+}
+
+.schedule-form input:focus {
+    color: #36536b;
+}
+
+.schedule-button:hover {
+    background-color: #da6d97;
+}
+
+.about-us-button:hover {
+    background-color: #fbfcfe;
+    color: #1B262F;
+}
+
+@media screen and (max-width: 1040px){
+
+    .container {
+        padding: 0 40px;
+        margin: 0;
+        width: 100vw;
+    }
+
+    header {
+        background-size: 150%;
+        background-position: center -110vw;
+        margin-bottom: 10vw;
+    }
+    .navbar {
+        margin-bottom: 10px;
+    }
+
+    li a {
+        margin-left: 6vw;
+    }
+
+    li:nth-child(1){
+        margin-left: 2vw;
+    }
+
+
+
+    .hero {
+        flex-direction: column-reverse;
+    }
+
+    .mobile-mockup-hero {
+        margin-left: 80px;
+        width: 300px;
+    }
+
+    .mobile-mockup-hero img {
+        width: inherit;
+    }
+
+    .hero-text {
+        max-width: 600px;
+        margin-top: -20px;
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    h1 {
+        font-size: 48px;
+    }
+
+    .hero-text .schedule-form {
+        margin: 15px 0;
+    }
+
+    .hero-text small {
+        margin-left: 0;
+    }
+
+    .references {
+        height: 615px;
+        flex-direction: column-reverse;
+        justify-content: space-evenly;
+        background-position: center -73vw;
+    }
+
+    main {
+        background-image: none;
+    }
+
+    .references-description {
+        text-align: center;
+    }
+
+    .easy-to-implement-container {
+        flex-direction: column;
+    }
+
+    .easy-to-implement-img {
+        width: 65vw;
+        margin-left: 3vw;
+    }
+
+    .easy-to-implement-description,
+    .simple-ui-description {
+        text-align: center;
+        margin-top: -40px;
+        margin-bottom: 40px;
+        width: 573px;
+    }
+
+    .simple-ui-container {
+        flex-direction: column-reverse;
+    }
+
+    .simple-ui-img {
+        width: 60vw;
+        margin-left: 6vw;
+    }
+
+    .simple-ui-description{
+        margin: -20px 0 100px;
+    }
+
+    .perks-container {
+        gap: 10px;
+    }
+
+    .perk img {
+        width: 88px;
+    }
+
+    h3 {
+        margin-top: 30px;
+    }
+
+    .ready-to-start-container {
+        flex-direction: column;
+        height: 130px;
+    }
+
+    footer{
+        background-position:calc(50% + 400px) 20% ;
+    }
+}
+
+
+@media screen and (max-width: 767px){
+
+    .container {
+        padding: 0 24px;
+    }
+
+    header{
+        background-position: center -90vw;
+        margin-bottom: 60px;
+    }
+
+    .menu-button {
+        width: 30px;
+        height: 30px;
+        background-image: url("../assets/shared/mobile/menu.svg");
+        background-repeat: no-repeat;
+        background-position: center center;
+        position: absolute;
+        z-index: 1;
+        right: 24px;
+    }
+
+    .menu-button.active {
+        background-image: url("../assets/shared/mobile/close.svg");
+        position: fixed;
+    }
+
+    header .menu {
+        position: fixed;
+        background-color: rgb(27, 38, 47);
+        background-image: url("../assets/shared/desktop/bg-pattern-circle.svg");
+        background-repeat: no-repeat;
+        background-position: center -73.5vh;
+        top: 0;
+        right: -80vw;
+        height: 100vh;
+        width: 80vw;
+        z-index: 1;
+        flex-direction: column;
+        align-items: center;
+        justify-content: start;
+        transition: .7s;
+    }
+
+    .menu.active {
+        right: 0;
+    }
+
+    nav {
+        height: 150px;
+        margin-top: 100px;
+    }
+
+    header nav::before {
+        content: "";
+        border-bottom: 1px solid #fbfcfe;
+        width: 92%;
+        position: absolute;
+        left: 4%;
+    }
+
+     nav ul  {
+         height: inherit;
+        flex-direction: column;
+         align-items:center;
+         justify-content: space-evenly;
+         margin-top: 20px;
+
+    }
+
+     nav ul li a {
+         margin: 0;
+         color: #fbfcfe;
+         opacity: .8;
+     }
+    nav ul li a:hover {
+        color: #fbfcfe;
+        opacity: 1;
+    }
+    li:nth-child(1){
+        margin-left: 0;
+    }
+
+     .menu .schedule-button{
+         margin: 20px 0 0 0;
+     }
+
+     .mobile-mockup-hero {
+         width: 200px;
+         margin-left: 10vw;
+     }
+
+     .hero-text {
+         width: 100%;
+     }
+     h1 {
+         font-size: 30px;
+         line-height: 36px;
+     }
+
+     .schedule-form {
+         position: static;
+         width: 100%;
+     }
+    .hero-text .schedule-form {
+        margin-bottom: 80px;
+    }
+     .schedule-form .schedule-button{
+         position: static;
+         width: 100%;
+         margin-top: 15px;
+     }
+
+     .schedule-form input {
+         height: 48px;
+         box-shadow: 10px 10px 25px rgba(54, 83, 107, .25);
+     }
+
+
+     .references{
+         background-position: center -170vw;
+     }
+
+     .enterprises-logos-container {
+         grid-template: 1fr 1fr 1fr /  1fr 1fr;
+         gap: 25px;
+         justify-items: center;
+     }
+
+     .enterprises-logos-container svg {
+         transform: scale(0.8);
+     }
+
+     .references-description {
+         width: 100%;
+     }
+     h2 {
+         font-size: 32px;
+         font-weight: 300;
+     }
+
+     .easy-to-implement-container {
+         margin-top: 50px;
+     }
+
+    .easy-to-implement-description,
+    .simple-ui-description{
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .easy-to-implement-img,
+    .simple-ui-img{
+        width: 90vw;
+    }
+
+
+
+  .perks-container {
+      grid-template: 1fr 1fr 1fr / 1fr;
+      gap: 40px;
+  }
+
+  .ready-to-start-container {
+      margin: 80px 0 130px;
+      height: auto;
+  }
+  .ready-to-start-container .schedule-form {
+      margin-top: 20px;
+  }
+
+  footer {
+      flex-direction: column;
+      justify-content: space-evenly;
+      height: 353px;
+      background-position: center 50vw;
+  }
+
+  footer nav {
+      height: 120px;
+  }
+
+  footer nav ul {
+    justify-content: space-between;
+  }
+  footer nav,
+  footer nav ul {
+      margin-top: 0;
+  }
+
+  .social-links {
+      margin: 0;
+  }
+
+}

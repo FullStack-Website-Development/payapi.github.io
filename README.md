@@ -1,6 +1,6 @@
 # MULTIPAGE PAYAPI WEBSITE
 
-# Live demo: [here](https://mahn-bonnie.github.io/payapi.github.io/)
+# Live demo: [here](https://fullstack-website-development.github.io/personal-blog-website.github.io/)
 
  - Paypal website challenge
  - Created with HTML, CSS and JS
